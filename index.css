@@ -1,0 +1,92 @@
+﻿body
+{
+  padding: 4px;
+  text-align: center;
+  background-color: #A4A792;
+  background-image: url(http://simg.sinajs.cn/blog7newtpl/image/7/7_1/images/sinablogb.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+a.title
+{
+  color: #744D22;
+  font-size: 18px;
+  font-family: "微软雅黑","黑体";
+  font-weight: 300;
+  display: block;
+  width: 279px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-image: url(http://simg.sinajs.cn/blog7newtpl/image/7/7_1/images/blognavbg.png);
+  _background-image: none;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='http://simg.sinajs.cn/blog7newtpl/image/7/7_1/images/blognavbg.png');
+}
+
+table.t, table.t td, table.t th
+{
+  border-style: solid;
+  border-color: #9c8e84;
+}
+
+table.t
+{
+  width: 784px;
+  float: left;
+  margin: 5px 0;
+  border-width: 1px 0 0 1px;
+}
+
+table.t td, table.t th
+{
+  height: 27px;
+  border-width: 0 1px 1px 0;
+}
+
+table.t a
+{
+  display: block;
+  padding: 5px;
+  background-color: #f7e7ce;
+}
+
+table.t th, table.t td, table.t a
+{
+  color: black;
+  font-size: 12px;
+  font-style: normal;
+  font-family: 宋体,sans-serif;
+  line-height: 16px;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+}
+
+table.t th
+{
+  color: white;
+  text-align: center;
+  background-color: #8c2018;
+}
+
+table.t img
+{
+  width: 250px;
+  height: 325px;
+  border-width: 0;
+}
+
+table.t a:hover
+{
+  background-color: orange;
+	text-decoration: underline;
+}
+
+tr.c0 th, tr.c0 td, tr.c0 a { color: red; }
+tr.c1 th, tr.c1 td, tr.c1 a { color: blue; }
+tr.c2 th, tr.c2 td, tr.c2 a { color: green; }
+tr.c3 th, tr.c3 td, tr.c3 a { color: black; }
