@@ -1,34 +1,45 @@
 [serverlist]
-;[+展开-不展开]显示区名=服务器名|服务器IP|游戏端口|安全盾采集端口(不开启=0，开启=端口值)|风盾采集端口(不开启=0，开启=端口值)|验证模式
+;列表分组[+展开-不展开]显示区名=服务器名|服务器IP|游戏端口|安全盾采集端口(不开启=0，开启=端口值)|风盾采集端口(不开启=0，开启=端口值)|验证模式
+
+
 
 +军统网络=军统一区（电信）|117.21.174.113|7000|0|0|1
 +军统网络=军统一区（网通）|113.195.174.113|7000|0|0|1
+
+
+
+
 
 [weburl]
 ;官方网站
 HomePage=http://www.5wsf.net
 
 ;登陆器右窗口地址
-GGPage=http://www.5wsf.net/login.html
+GGPage=http://www.5wsf.net
 
 ;充值连接
-ChargePage=http://www.5wsf.net
+ChargePage=http://cz758.682buy.com/?gid=613
 
 ;装备展示
 ItemPage=http://www.5wsf.net
 
+
 ;登陆器升级  update=请填写你生成登录器时填写的版本号 如果忘记请登陆查询
 ChangeServer=0
 update=20120820
-updateurl=http://storage.aliyun.com/5wsf/M6_20001818.exe
+updateurl=http://storage.aliyun.com/5wsf/军统网络.exe
+
 ;登陆器皮肤路径,不填或者路径不对.采用默认皮肤 在网站上下载皮肤 把里面的.RAR文件直接上传到网站 然后在列表里面设置皮肤下载地址  皮肤.RAR 不是压缩文件只是皮肤文件 打开用皮肤设计器打开
 ;SKinMD5=0 使用通用皮肤
 SkinMD5=0
-SkinUrl=
+;SkinMD5=C7E8F933A375A8E7EE55C3FE64F2763B
+SkinUrl=http://www.m6dlq.com/skin/jpskin.rar
+
+
 
 [config]
 ;快捷方式名称
-AppName=军统传奇
+AppName=军统网络
 
 ;限制多开客户端
 ClientNum=2
@@ -36,8 +47,9 @@ ClientNum=2
 ;重要,网关模式.专用网关为1 通用网关为0 
 GateMode=1
 
+
 ;封机器码格式 MachineCode=机器码1|机器码2|机器码3.........
-MachineCode=
+MachineCode=4DAACA451FBD3EDAFCCC8D8412C4211D|4DAACA451FBD3EDAFCCC8D8412C4211D
 
 ;电源模式检测   就是一些玩家利用修改电源的时候进行加速,按照要求自由设置.0关闭 1开启 
 CheckACPI=0
@@ -47,8 +59,8 @@ CheckACPI=0
 [patch]
 ;PatchRule补丁模式，0；第一次开登录器下载 1：每次都下载   2：第一次开登录器图片补丁 3：每次都下载图片补丁
 PatchRule=2
-MD5=0
-downurl=
+MD5=0ACED503B2C2F8088B135BBE66C265A0
+downurl=http://storage.aliyun.com/5wsf/jt.rar
 
-PatchCount=0
-PatchJpg1=
+PatchCount=1
+PatchJpg1=http://img1.ph.126.net/obtISDuXx3MYyEP3qctqsg==/24488322991352181.jpg
